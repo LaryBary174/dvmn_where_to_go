@@ -22,13 +22,13 @@ pip install -r requirements.txt
 
 Доступны следующие переменные:
 
-- `DJANGO_SECRET_KEY` — это секретный ключ, используемый Django для обеспечения безопасности
+- `SECRET_KEY` — это секретный ключ, используемый Django для обеспечения безопасности
 
 - `ALLOWED_HOSTS` — список доменных имен или IP-адресов, с которых разрешены запросы к вашему Django-приложению.
 
 Пример:
 ```
-DJANGO_SECRET_KEY = 'key'
+SECRET_KEY = 'key'
 ALLOWED_HOSTS = '["127.0.0.1", ".pythonanywhere.com"]'
 
 ```
